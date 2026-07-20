@@ -1,57 +1,38 @@
 ---
-title: "Week 8 Worklog"
-date: 2024-01-01
+title: "Worklog Week 8"
+date: 2026-07-20
 weight: 1
 chapter: false
 pre: " <b> 1.8. </b> "
 ---
-{{% notice warning %}} 
-⚠️ **Note:** The following information is for reference purposes only. Please **do not copy verbatim** for your own report, including this warning.
-{{% /notice %}}
 
+### Week 8 Objectives
 
-### Week 8 Objectives:
+* Build the backend architecture using a serverless model.
+* Learn and deploy Amazon API Gateway.
+* Develop AWS Lambda functions for business logic processing.
+* Test the connection between the Frontend and Backend.
 
-* Connect and get acquainted with members of First Cloud AI Journey.
-* Understand basic AWS services, how to use the console & CLI.
+### Tasks Completed During Week 8
 
-### Tasks to be carried out this week:
-| Day | Task                                                                                                                                                                                                   | Start Date | Completion Date | Reference Material                        |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------- | --------------- | ----------------------------------------- |
-| 2   | - Get acquainted with FCAJ members <br> - Read and take note of internship unit rules and regulations                                                                                                   | 08/11/2025 | 08/11/2025      |
-| 3   | - Learn about AWS and its types of services <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                              | 08/12/2025 | 08/12/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Create AWS Free Tier account <br> - Learn about AWS Console & AWS CLI <br> - **Practice:** <br>&emsp; + Create AWS account <br>&emsp; + Install & configure AWS CLI <br> &emsp; + How to use AWS CLI | 08/13/2025 | 08/13/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Learn basic EC2: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - SSH connection methods to EC2 <br> - Learn about Elastic IP   <br>                            | 08/14/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Practice:** <br>&emsp; + Launch an EC2 instance <br>&emsp; + Connect via SSH <br>&emsp; + Attach an EBS volume                                                                                     | 08/15/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
+| Day | Tasks | Start Date | Completion Date | References |
+| --- | ----- | ---------- | --------------- | ---------- |
+| Mon |  Continue designing the system architecture diagram for the project | 29/06/2026 | 29/06/2026 | https://drive.google.com/file/d/1RVzpcXL_ogewN5UGBDjIXKppu6z0_hJh/view |
+| Tue |  Continue designing the system architecture diagram for the project | 30/06/2026 | 30/06/2026 | https://drive.google.com/file/d/1RVzpcXL_ogewN5UGBDjIXKppu6z0_hJh/view |
+| Wed |  Continue designing the system architecture diagram for the project | 01/07/2026 | 01/07/2026 | https://drive.google.com/file/d/1RVzpcXL_ogewN5UGBDjIXKppu6z0_hJh/view |
+| Thu |  Continue refining the system architecture diagram for the project | 02/07/2026 | 03/07/2026 | https://drive.google.com/file/d/1RVzpcXL_ogewN5UGBDjIXKppu6z0_hJh/view |
+| Fri |  Finalize the project architecture diagram | 04/07/2026 | 04/07/2026 | https://drive.google.com/file/d/1RVzpcXL_ogewN5UGBDjIXKppu6z0_hJh/view |
 
+### Week 8 Achievements
 
-### Week 8 Achievements:
+* Gained a solid understanding of the serverless backend architecture on AWS.
 
-* Understood what AWS is and mastered the basic service groups: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
+* Successfully deployed Amazon API Gateway to receive and route user requests.
 
-* Successfully created and configured an AWS Free Tier account.
+* Developed AWS Lambda functions to handle the system's business logic.
 
-* Became familiar with the AWS Management Console and learned how to find, access, and use services via the web interface.
+* Successfully integrated Amazon API Gateway with AWS Lambda.
 
-* Installed and configured AWS CLI on the computer, including:
-  * Access Key
-  * Secret Key
-  * Default Region
-  * ...
+* Tested the data flow between the Frontend and Backend through REST APIs.
 
-* Used AWS CLI to perform basic operations such as:
-
-  * Check account & configuration information
-  * Retrieve the list of regions
-  * View EC2 service
-  * Create and manage key pairs
-  * Check information about running services
-  * ...
-
-* Acquired the ability to connect between the web interface and CLI to manage AWS resources in parallel.
-* ...
+* Established the initial backend foundation, making the system ready for database integration and AI-related features in the following development phases.

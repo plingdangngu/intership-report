@@ -1,59 +1,40 @@
 ---
-title: "Worklog Tuần 3"
-date: 2024-01-01
+title: "Nhật ký tuần 3"
+date: 2026-07-20
 weight: 1
 chapter: false
 pre: " <b> 1.3. </b> "
 ---
-{{% notice warning %}}
-⚠️ **Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn kể cả warning này.
-{{% /notice %}}
 
 
-### Mục tiêu tuần 3:
 
-* Kết nối, làm quen với các thành viên trong First Cloud AI Journey.
-* Hiểu dịch vụ AWS cơ bản, cách dùng console & CLI.
+### Mục tiêu tuần 3
 
-### Các công việc cần triển khai trong tuần này:
-| Thứ | Công việc                                                                                                                                                                                   | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu                            |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | ----------------------------------------- |
-| 2   | - Làm quen với các thành viên FCAJ <br> - Đọc và lưu ý các nội quy, quy định tại đơn vị thực tập                                                                                             | 11/08/2025   | 11/08/2025      |
-| 3   | - Tìm hiểu AWS và các loại dịch vụ <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                            | 12/08/2025   | 12/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Tạo AWS Free Tier account <br> - Tìm hiểu AWS Console & AWS CLI <br> - **Thực hành:** <br>&emsp; + Tạo AWS account <br>&emsp; + Cài AWS CLI & cấu hình <br> &emsp; + Cách sử dụng AWS CLI | 13/08/2025   | 13/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Tìm hiểu EC2 cơ bản: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - Các cách remote SSH vào EC2 <br> - Tìm hiểu Elastic IP   <br>                  | 14/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Thực hành:** <br>&emsp; + Tạo EC2 instance <br>&emsp; + Kết nối SSH <br>&emsp; + Gắn EBS volume                                                                                         | 15/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
+* Tiếp tục tìm hiểu các dịch vụ cốt lõi của AWS.
+* Thực hành triển khai ứng dụng trên môi trường AWS.
+* Làm quen với dịch vụ Amazon EC2 và các thao tác quản lý máy chủ.
 
+### Các công việc thực hiện trong tuần
 
-### Kết quả đạt được tuần 3:
-
-* Hiểu AWS là gì và nắm được các nhóm dịch vụ cơ bản: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
-
-* Đã tạo và cấu hình AWS Free Tier account thành công.
-
-* Làm quen với AWS Management Console và biết cách tìm, truy cập, sử dụng dịch vụ từ giao diện web.
-
-* Cài đặt và cấu hình AWS CLI trên máy tính bao gồm:
-  * Access Key
-  * Secret Key
-  * Region mặc định
-  * ...
-
-* Sử dụng AWS CLI để thực hiện các thao tác cơ bản như:
-
-  * Kiểm tra thông tin tài khoản & cấu hình
-  * Lấy danh sách region
-  * Xem dịch vụ EC2
-  * Tạo và quản lý key pair
-  * Kiểm tra thông tin dịch vụ đang chạy
-  * ...
-
-* Có khả năng kết nối giữa giao diện web và CLI để quản lý tài nguyên AWS song song.
-* ...
+| Thứ | Công việc | Ngày bắt đầu | Ngày hoàn thành | Tài liệu tham khảo |
+| --- | --------- | ------------ | --------------- | ------------------ |
+| 2 | **Tìm hiểu các bài lab AWS** <br> - Xem video hướng dẫn trên kênh AWS First Cloud Journey <br> - Ghi nhận mục tiêu và nội dung chính của các bài lab <br> - Tìm hiểu những dịch vụ AWS xuất hiện trong bài hướng dẫn   | 27/05/2026 | 28/05/2026 | https://aws.amazon.com/getting-started/ |
+| 3 | Tìm hiểu Amazon EC2 và các thành phần như Instance, AMI, Security Group và Key Pair. | 21/05/2026 | 22/05/2026 | https://docs.aws.amazon.com/ec2/ |
+| 4 | Thực hành tạo EC2 Instance và cấu hình môi trường làm việc. | 23/05/2026 | 24/05/2026 | https://docs.aws.amazon.com/ec2/ |
+| 5 | Kết nối đến EC2 bằng SSH và thực hiện cài đặt các phần mềm cần thiết. | 25/05/2026 | 26/05/2026 | https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/connect-to-linux-instance.html |
+| 6 | Triển khai ứng dụng mẫu trên EC2 và kiểm tra khả năng truy cập từ trình duyệt. | 27/05/2026 | 28/05/2026 | https://aws.amazon.com/getting-started/ |
 
 
+### Kết quả đạt được tuần 3
+
+* Hiểu được vai trò của Amazon EC2 trong việc triển khai ứng dụng trên nền tảng AWS.
+
+* Nắm được quy trình tạo và quản lý EC2 Instance.
+
+* Thực hiện thành công việc kết nối đến máy chủ EC2 thông qua SSH.
+
+* Triển khai thành công một ứng dụng mẫu trên EC2 và kiểm tra hoạt động thông qua địa chỉ Public IP.
+
+* Hiểu được cách cấu hình Security Group để cho phép truy cập vào máy chủ.
+
+* Có thêm kinh nghiệm làm việc với môi trường máy chủ Linux trên nền tảng AWS.

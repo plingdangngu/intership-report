@@ -1,47 +1,59 @@
 ---
-title: "Sharing and Feedback"
-date: 2024-01-01
+title: "Feedback and Suggestions"
+date: 2026-07-20
 weight: 7
 chapter: false
 pre: " <b> 7. </b> "
 ---
 
-{{% notice warning %}}
-⚠️ **Note:** The information below is for reference purposes only. Please **do not copy verbatim** for your report, including this warning.
-{{% /notice %}}
+> This section summarizes my personal experience throughout the First Cloud AI Journey program and provides suggestions that may help improve the learning experience for future participants.
 
-> Here, you can freely share your personal opinions about your experience participating in the First Cloud AI Journey program. This will help the FCAJ team improve any shortcomings based on the following aspects:
+## Overall Evaluation
 
-### Overall Evaluation
+### 1. Learning Environment
 
-**1. Working Environment**  
-The working environment is very friendly and open. FCAJ members are always willing to help whenever I encounter difficulties, even outside working hours. The workspace is tidy and comfortable, helping me focus better. However, I think it would be nice to have more social gatherings or team bonding activities to strengthen relationships.
+The learning environment was well organized, supportive, and highly motivating. The program provided a clear learning roadmap that gradually introduced AWS services before moving on to real project implementation. The combination of self-learning materials, workshops, and hands-on practice created an effective learning experience.
 
-**2. Support from Mentor / Team Admin**  
-The mentor provides very detailed guidance, explains clearly when I don’t understand, and always encourages me to ask questions. The admin team supports administrative tasks, provides necessary documents, and creates favorable conditions for me to work effectively. I especially appreciate that the mentor allows me to try and solve problems myself instead of just giving the answer.
+### 2. Mentor and Community Support
 
-**3. Relevance of Work to Academic Major**  
-The tasks I was assigned align well with the knowledge I learned at university, while also introducing me to new areas I had never encountered before. This allowed me to both strengthen my foundational knowledge and gain practical skills.
+The mentors and community members were always willing to answer questions and provide guidance whenever difficulties arose. Instead of simply giving solutions, they encouraged participants to analyze problems independently and explore the AWS documentation. This approach helped me become more confident in troubleshooting and problem-solving.
 
-**4. Learning & Skill Development Opportunities**  
-During the internship, I learned many new skills such as using project management tools, teamwork skills, and professional communication in a corporate environment. The mentor also shared valuable real-world experiences that helped me better plan my career path.
+### 3. Relevance to My Academic Background
 
-**5. Company Culture & Team Spirit**  
-The company culture is very positive: everyone respects each other, works seriously but still keeps things enjoyable. When there are urgent projects, everyone works together and supports one another regardless of their position. This made me feel like a real part of the team, even as an intern.
+The program was closely aligned with my university major in Information Technology. It allowed me to apply theoretical knowledge in software development while learning practical cloud computing concepts, serverless architecture, and AWS best practices that are not always covered in university courses.
 
-**6. Internship Policies / Benefits**  
-The company provides an internship allowance and offers flexible working hours when needed. In addition, having the opportunity to join internal training sessions is a big plus.
+### 4. Learning Opportunities
 
----
+One of the most valuable aspects of the program was the opportunity to build a complete cloud application instead of only completing isolated labs. Developing the SmartStudy AI project allowed me to gain practical experience with AWS Amplify, Amazon Cognito, API Gateway, Lambda, S3, DynamoDB, SQS, CloudWatch, CloudFormation, and AWS CDK while also improving my documentation and technical writing skills.
 
-### Additional Questions
-- What did you find **most satisfying** during your internship?  
-- What do you think the company **should improve** for future interns?  
-- If recommending to a friend, would you **suggest they intern here**? Why or why not?  
+### 5. Community and Collaboration
 
----
+The program fostered a collaborative atmosphere where participants were encouraged to share ideas and help one another. Discussions within the community made learning more engaging and allowed me to learn from the experiences of other participants.
 
-### Suggestions & Expectations
-- Do you have any suggestions to improve the internship experience?  
-- Would you like to continue this program in the future?  
-- Any other comments (free sharing):
+### 6. Overall Program Experience
+
+Overall, I believe the First Cloud AI Journey program successfully bridges the gap between academic learning and practical cloud development. The combination of guided learning, real projects, technical blogs, and workshops provided a comprehensive learning experience that strengthened both my technical knowledge and practical skills.
+
+## Additional Questions
+
+### What was the most satisfying part of the program?
+
+The most rewarding experience was building and deploying the SmartStudy AI project on AWS. Seeing the application evolve from an initial idea into a working cloud-based system gave me a deeper understanding of AWS services and increased my confidence in designing and deploying cloud applications.
+
+### What could be improved?
+
+It would be beneficial to include more advanced workshops focusing on topics such as CI/CD, Infrastructure as Code, cloud security best practices, and cost optimization. Additional sessions covering troubleshooting techniques and real-world deployment scenarios would also help participants gain a deeper understanding of production environments.
+
+### Would you recommend this program to your friends?
+
+Yes. I would definitely recommend the First Cloud AI Journey program to students who want to learn AWS through practical experience. The program provides a structured learning path, opportunities to work on real projects, and valuable guidance from experienced mentors, making it an excellent starting point for anyone interested in cloud computing.
+
+## Suggestions and Expectations
+
+- Continue updating the learning materials to include newly released AWS services and features.
+- Organize additional technical sharing sessions where participants can present their projects and exchange experiences.
+- Provide more real-world project scenarios that simulate enterprise environments.
+- Include optional advanced learning tracks for participants who want to explore cloud architecture, DevOps, AI, or security in greater depth.
+- Maintain and further expand the supportive learning community, as it is one of the program's greatest strengths.
+
+Overall, I am grateful for the opportunity to participate in the First Cloud AI Journey program. The knowledge, practical experience, and confidence I gained throughout the program will serve as a strong foundation for my future career in cloud computing and software engineering.

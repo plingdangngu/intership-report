@@ -1,59 +1,37 @@
 ---
-title: "Worklog Tuần 8"
-date: 2024-01-01
+title: "Nhật ký tuần 8"
+date: 2026-07-20
 weight: 1
 chapter: false
 pre: " <b> 1.8. </b> "
 ---
-{{% notice warning %}}
-⚠️ **Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn kể cả warning này.
-{{% /notice %}}
+### Mục tiêu tuần 8
 
+* Xây dựng kiến trúc Backend theo mô hình Serverless.
+* Tìm hiểu và triển khai Amazon API Gateway.
+* Xây dựng các hàm AWS Lambda phục vụ xử lý nghiệp vụ.
+* Kiểm thử kết nối giữa Frontend và Backend.
 
-### Mục tiêu tuần 8:
+### Các công việc thực hiện trong tuần
 
-* Kết nối, làm quen với các thành viên trong First Cloud AI Journey.
-* Hiểu dịch vụ AWS cơ bản, cách dùng console & CLI.
+| Thứ | Công việc | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu |
+| --- | --------- | ------------ | --------------- | -------------- |
+| 2 |  Tiếp tục vẽ sơ đồ kiến trúc cho dự án | 29/06/2026 | 29/06/2026 | https://drive.google.com/file/d/1RVzpcXL_ogewN5UGBDjIXKppu6z0_hJh/view |
+| 3 |  Tiếp tục vẽ sơ đồ kiến trúc cho dự án | 30/06/2026 | 30/06/2026 | https://drive.google.com/file/d/1RVzpcXL_ogewN5UGBDjIXKppu6z0_hJh/view |
+| 4 |  Tiếp tục vẽ sơ đồ kiến trúc cho dự án | 01/07/2026 | 01/07/2026 | https://drive.google.com/file/d/1RVzpcXL_ogewN5UGBDjIXKppu6z0_hJh/view |
+| 5 |  Tiếp tục vẽ sơ đồ kiến trúc cho dự án | 02/07/2026 | 03/07/2026 | https://drive.google.com/file/d/1RVzpcXL_ogewN5UGBDjIXKppu6z0_hJh/view |
+| 6 |  Tiếp tục vẽ sơ đồ kiến trúc cho dự án | 04/07/2026 | 04/07/2026 | https://drive.google.com/file/d/1RVzpcXL_ogewN5UGBDjIXKppu6z0_hJh/view |
 
-### Các công việc cần triển khai trong tuần này:
-| Thứ | Công việc                                                                                                                                                                                   | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu                            |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | ----------------------------------------- |
-| 2   | - Làm quen với các thành viên FCAJ <br> - Đọc và lưu ý các nội quy, quy định tại đơn vị thực tập                                                                                             | 11/08/2025   | 11/08/2025      |
-| 3   | - Tìm hiểu AWS và các loại dịch vụ <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                            | 12/08/2025   | 12/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Tạo AWS Free Tier account <br> - Tìm hiểu AWS Console & AWS CLI <br> - **Thực hành:** <br>&emsp; + Tạo AWS account <br>&emsp; + Cài AWS CLI & cấu hình <br> &emsp; + Cách sử dụng AWS CLI | 13/08/2025   | 13/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Tìm hiểu EC2 cơ bản: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - Các cách remote SSH vào EC2 <br> - Tìm hiểu Elastic IP   <br>                  | 14/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Thực hành:** <br>&emsp; + Tạo EC2 instance <br>&emsp; + Kết nối SSH <br>&emsp; + Gắn EBS volume                                                                                         | 15/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
+### Kết quả đạt được tuần 8
 
+* Hiểu được mô hình Backend Serverless trên nền tảng AWS.
 
-### Kết quả đạt được tuần 8:
+* Triển khai thành công Amazon API Gateway để tiếp nhận các yêu cầu từ phía người dùng.
 
-* Hiểu AWS là gì và nắm được các nhóm dịch vụ cơ bản: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
+* Xây dựng được các hàm AWS Lambda phục vụ xử lý nghiệp vụ của hệ thống.
 
-* Đã tạo và cấu hình AWS Free Tier account thành công.
+* Kết nối thành công giữa API Gateway và AWS Lambda.
 
-* Làm quen với AWS Management Console và biết cách tìm, truy cập, sử dụng dịch vụ từ giao diện web.
+* Kiểm thử được luồng trao đổi dữ liệu giữa Frontend và Backend thông qua các API.
 
-* Cài đặt và cấu hình AWS CLI trên máy tính bao gồm:
-  * Access Key
-  * Secret Key
-  * Region mặc định
-  * ...
-
-* Sử dụng AWS CLI để thực hiện các thao tác cơ bản như:
-
-  * Kiểm tra thông tin tài khoản & cấu hình
-  * Lấy danh sách region
-  * Xem dịch vụ EC2
-  * Tạo và quản lý key pair
-  * Kiểm tra thông tin dịch vụ đang chạy
-  * ...
-
-* Có khả năng kết nối giữa giao diện web và CLI để quản lý tài nguyên AWS song song.
-* ...
-
-
+* Hoàn thiện nền tảng Backend ban đầu, sẵn sàng tích hợp cơ sở dữ liệu và các chức năng AI trong những tuần tiếp theo.

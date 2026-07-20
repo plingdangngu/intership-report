@@ -6,17 +6,14 @@ chapter: false
 pre: " <b> 3. </b> "
 ---
 
-{{% notice warning %}}  
-⚠️ **Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn kể cả warning này.
-{{% /notice %}}
+### [Blog 1 - Xây dựng AI Gateway cho Amazon Bedrock bằng Amazon API Gateway](3.1-Blog1/)
 
-Tại đây sẽ là phần liệt kê, giới thiệu các blogs mà các bạn đã đăng trên [AWS Study Group](https://www.facebook.com/groups/awsstudygroupfcj). Ví dụ:
+Bài viết giới thiệu kiến trúc AI Gateway trên AWS, sử dụng Amazon API Gateway làm lớp trung gian giữa ứng dụng và Amazon Bedrock nhằm quản lý tập trung việc truy cập các mô hình AI. Nội dung trình bày vai trò của các thành phần như Amazon API Gateway, AWS Lambda, IAM và Amazon Bedrock, đồng thời phân tích luồng xử lý, lợi ích về bảo mật, khả năng mở rộng, kiểm soát chi phí và hướng dẫn triển khai kiến trúc bằng AWS CloudFormation.
 
-###  [Blog 1 - SESSION POLICIES TRONG AMAZON EKS POD IDENTITY](3.1-Blog1/)
-Blog này giới thiệu Amazon EKS Pod Identity vừa bổ sung tính năng session policies, cho phép bạn thu hẹp quyền IAM một cách linh hoạt và chính xác cho từng pod mà không cần tạo thêm nhiều IAM roles riêng biệt. Đây là bước tiến quan trọng giúp áp dụng nguyên tắc least privilege hiệu quả hơn trong môi trường Kubernetes quy mô lớn.
+### [Blog 2 - Triển khai AI Gateway cho Amazon Bedrock trên AWS](3.2-Blog2/)
 
-###  [Blog 2 - ...](3.2-Blog2/)
-Blog này giới thiệu Amazon EKS Pod Identity vừa bổ sung tính năng session policies, cho phép bạn thu hẹp quyền IAM một cách linh hoạt và chính xác cho từng pod mà không cần tạo thêm nhiều IAM roles riêng biệt. Đây là bước tiến quan trọng giúp áp dụng nguyên tắc least privilege hiệu quả hơn trong môi trường Kubernetes quy mô lớn.
+Bài viết hướng dẫn quy trình triển khai AI Gateway trên AWS bằng AWS CloudFormation. Nội dung trình bày các bước chuẩn bị môi trường, triển khai hạ tầng, kiểm thử hoạt động của AI Gateway, sử dụng Response Streaming và đề xuất các hướng mở rộng như AWS WAF, CloudWatch, API Versioning và Canary Deployment nhằm nâng cao khả năng bảo mật, giám sát và mở rộng hệ thống.
 
-###  [Blog 3 - ...](3.3-Blog3/)
-Blog này giới thiệu Amazon EKS Pod Identity vừa bổ sung tính năng session policies, cho phép bạn thu hẹp quyền IAM một cách linh hoạt và chính xác cho từng pod mà không cần tạo thêm nhiều IAM roles riêng biệt. Đây là bước tiến quan trọng giúp áp dụng nguyên tắc least privilege hiệu quả hơn trong môi trường Kubernetes quy mô lớn.
+### [Blog 3 - Triển khai ứng dụng .NET Blazor WebAssembly trên Amazon S3 và Amazon CloudFront](3.3-Blog3/)
+
+Bài viết giới thiệu cách triển khai ứng dụng .NET Blazor WebAssembly theo kiến trúc serverless bằng Amazon S3 và Amazon CloudFront. Nội dung trình bày vai trò của các thành phần như Blazor WebAssembly, Amazon S3, Amazon CloudFront và Terraform, đồng thời hướng dẫn các bước publish ứng dụng, triển khai hạ tầng, đồng bộ dữ liệu lên Amazon S3 và tối ưu hiệu năng website thông qua mạng CDN của CloudFront.

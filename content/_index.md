@@ -1,44 +1,42 @@
 ---
 title: "Internship Report"
-date: 2024-01-01
+date: 2026-07-20
 weight: 1
 chapter: false
 ---
 
-    
 # Internship Report
 
-{{% notice warning %}}
-⚠️ **Note:** The information below is for reference purposes only. Please **do not copy verbatim** for your report, including this warning.
-{{% /notice %}}
+### Student Information
 
-### Student Information:
-&emsp; **Full Name:** Nguyen Van A
+&emsp; **Full Name:** Nguyen Phuong Linh
 
-&emsp; **Phone Number:** 0989888999 
+&emsp; **Phone Number:** 0328449266
 
-&emsp; **Email:** Anguyenvan@gmail.com
+&emsp; **Email:** nguyenphuonglinh141204@gmail.com
 
-&emsp; **University:** Ho Chi Minh City University of Technology and Education
+&emsp; **University:** Ho Chi Minh City University of Technology
 
 &emsp; **Major:** Information Technology
 
-&emsp; **Class:** AWS082025
+&emsp; **Class:** 22DTHG3
 
-&emsp; **Internship Company:** Amazon Web Services Viet Nam Company Limited
+&emsp; **Internship Company:** Amazon Web Services Vietnam Co., Ltd.
 
-&emsp; **Internship Position:** Workforce Bootcamp - First Cloud AI Journey
+&emsp; **Internship Position:** Workforce Bootcamp – First Cloud AI Journey
 
-&emsp; **Internship Duration:** From 12/08/2025 to 12/11/2025
+&emsp; **Internship Period:** From 05/05/2026 to 30/07/2026
 
-![Your profile picture](/images/avatar.png)
+<div style="text-align: center;">
+  <img src="/intership-report/images/avatar.png" alt="Profile Photo" width="180">
+</div>
 
-### Report Content
+### Report Contents
 
-1.  [Worklog](1-Worklog/)
-2.  [Proposal](2-Proposal/)
-3.  [BlogsPosted](3-BlogsPosted/)
-4.  [Events Participated](4-EventParticipated/)
-5.  [Workshop](5-Workshop/)
-6.  [Self-evaluation](6-Self-evaluation/)
-7.  [Sharing and Feedback](7-Feedback/)
+1. [Work Log](1-Worklog/)
+2. [Project Proposal](2-Proposal/)
+3. [Published Blog Posts](3-BlogsPosted/)
+4. [Events Participated](4-EventParticipated/)
+5. [Workshops](5-Workshop/)
+6. [Self-Evaluation](6-Self-evaluation/)
+7. [Feedback and Suggestions](7-Feedback/)
