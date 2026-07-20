@@ -28,7 +28,7 @@ chapter: false
 &emsp; **Internship Period:** From 05/05/2026 to 30/07/2026
 
 <div style="text-align: center;">
-  <img src="/intership-report/images/avatar.png" alt="Profile Photo" width="500">
+  <img src="/intership-report/images/avatar.png" alt="Profile Photo" width="300">
 </div>
 
 ### Report Contents
