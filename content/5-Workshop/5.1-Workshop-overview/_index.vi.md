@@ -29,7 +29,7 @@ Môi trường phát triển local được khởi chạy bằng Docker Compose,
 
 Dự án được quản lý trong một GitHub repository duy nhất, bao gồm frontend, backend, định nghĩa hạ tầng, tài liệu kỹ thuật, script triển khai và thành phần Cloudflare relay.
 
-![GitHub repository của SmartStudy](/intership-report/images/5-Workshop/5.1-Workshop-overview/github-repository-overview.png)
+![Reopsitory smart study](/intership-report/images/5-Workshop/5.1-Workshop-overview/github-repository-overview.png)
 
 *Hình 5.1: Repository SmartStudy và các module triển khai chính.*
 
