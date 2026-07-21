@@ -1,4 +1,4 @@
-```markdown
+
 ---
 title: "Event 2"
 date: 2026-07-21
@@ -26,7 +26,7 @@ pre: " <b> 4.2. </b> "
 
 #### Một số hình ảnh khi tham gia sự kiện
 
-![Meetup First Cloud Journey](/intership-report/images/3.jpg)
+![AWS Builders Meetup](/intership-report/images/3.jpg)
 
 
 ### Nội Dung Nổi Bật

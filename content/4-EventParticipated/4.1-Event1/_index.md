@@ -3,7 +3,7 @@ title: "Event 1"
 date: 2026-06-06
 weight: 2
 chapter: false
-pre: " <b> 4.2. </b> "
+pre: " <b> 4.1. </b> "
 ---
 
 # Report on "Meetup First Cloud Journey"
@@ -192,5 +192,3 @@ Participating in **Meetup First Cloud Journey** was an enriching experience beca
 - GraphRAG demonstrates how Generative AI can leverage graph databases for more intelligent information retrieval.
 - Machine Learning can significantly improve cloud security solutions.
 - Successful software projects depend on both technical expertise and effective collaboration.
-
-> Overall, **Meetup First Cloud Journey** provided valuable knowledge ranging from career development to modern technologies such as Docker, Serverless computing, GraphRAG, and Machine Learning. The event broadened my technical perspective while reinforcing the importance of continuous learning, teamwork, and adaptability in today's rapidly evolving technology landscape.

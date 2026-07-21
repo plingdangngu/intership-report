@@ -1,4 +1,4 @@
-```markdown
+
 ---
 title: "Event 2"
 date: 2026-07-21
@@ -84,4 +84,4 @@ The **AWS Builders Meetup** provided valuable insights not only into AWS technol
 The session on **Cloud Quest** and **Floci** introduced useful tools for practicing AWS without worrying about cloud costs. Meanwhile, the stories shared by **The Ballers Team** inspired me to confidently participate in Hackathons and develop real-world technology projects.
 
 Although the final two presentations focused on confidence and overcoming procrastination rather than technical topics, they were highly relevant to students. Practical techniques such as the **5-Second Rule** and the **5-Minute Rule** are simple strategies that can be applied immediately in both academic and professional settings.
-```
+
